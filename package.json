@@ -4,7 +4,6 @@
   "version": "4.0.3",
   "scripts": {
     "test": "npm run build && mocha ./tests/*.js --reporter spec",
-    //"build": "rm -rf ./dist && tsc",
     "build": "[my-framework] build --output public"
     "prepare": "npm run build",
     "format": "prettier --write src/**/*.ts"
